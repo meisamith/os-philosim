@@ -109,11 +109,16 @@ The simulation engine (`src/engine/simulation.ts`) is a deterministic, framework
 Each strategy implements the small `Strategy` interface (`tryAcquire`, `release`) and is selected at runtime via a registry map. Adding a new strategy is a single-file change.
 
 ---
-
 ## Screenshots
 
-> Placeholder — add screenshots of the simulator in `/docs/screenshots/` and reference them here.
+### Home
+![Home](screenshots/home.png)
 
+### Deadlock Demo
+![Deadlock](screenshots/deadlock.png)
+
+### Binary Semaphore Solution
+![Semaphore](screenshots/semaphore.png)
 ---
 
 ## Future Scope
