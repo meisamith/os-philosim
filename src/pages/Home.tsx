@@ -73,7 +73,7 @@ export function Home() {
       </section>
 
       <footer className="border-t border-white/5 w-full py-6 text-center text-xs text-slate-500">
-        Made by Amith Choudhary
+        Built by Teksha and team
       </footer>
     </main>
   );
